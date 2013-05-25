@@ -1,5 +1,5 @@
 require "marlowe/version"
 
 module Marlowe
-  # Your code goes here...
+  autoload :Controller, 'marlowe/controller'
 end
