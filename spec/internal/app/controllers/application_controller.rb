@@ -1,3 +1,3 @@
 class ApplicationController < ActionController::Base
-  include Marlowe::Hooks
+  include Marlowe::Controller::Hooks
 end
